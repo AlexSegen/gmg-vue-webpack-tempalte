@@ -6,6 +6,7 @@ import './registerServiceWorker'
 window.jQuery = jQuery;
 window.$ = $;
 import bootstrap from 'bootstrap';
+import './assets/js/frontend.js';
 
 //CSS
 import 'font-awesome/css/font-awesome.css';

@@ -20,7 +20,7 @@
                     <li><a href="/elements/#lists">Lists</a></li>
                     <li class=dropdown> <a href=# class=dropdown-toggle data-toggle=dropdown role=button aria-haspopup=true aria-expanded=false>
                         <i class="fa fa-help"></i> Help <span class=caret></span></a> <ul class=dropdown-menu>
-                            <li><a href=#><i class="fa fa-github"></i> Github repository</a></li>
+                            <li><a href="https://github.com/AlexSegen/gmg-vue-webpack-tempalte/"><i class="fa fa-github"></i> Github repository</a></li>
                             <li><a href=#>Another action</a></li>
                             <li><a href=#>Something else here</a></li>
                             <li role=separator class=divider></li>
@@ -235,19 +235,19 @@
                     </div>
                     <div class=col-sm-4>
                         <div class="form-group has-success"> <label class=control-label for="">Input with warning</label> <input type=text class=form-control
-                                id="" aria-describedby=helpBlock2> </div>
+                                 aria-describedby=helpBlock2> </div>
                         <div class="form-group has-error"> <label class=control-label for="">Input with warning</label> <input type=text class=form-control
-                                id="" aria-describedby=helpBlock3> <span id=helpBlock2 class=help-block><i class="fa fa-exclamation-triangle"></i>
+                                 aria-describedby=helpBlock3> <span id=helpBlock2 class=help-block><i class="fa fa-exclamation-triangle"></i>
                                 Error message</span> </div>
                         <div class="form-group has-warning"> <label class=control-label for="">Input with warning</label> <input type=text class=form-control
-                                id="" aria-describedby=helpBlock4> <span id=helpBlock2 class=help-block><i class="fa fa-info-circle"></i>
+                                 aria-describedby=helpBlock4> <span id=helpBlock2 class=help-block><i class="fa fa-info-circle"></i>
                                 warning message</span> </div>
                     </div>
                     <div class=col-sm-4>
                         <div class=form-group> <label class=form-label>Input label</label> <textarea class=form-control cols=30 rows=4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam incidunt eos autem ipsa quia quis a atque quas aliquid quae consequatur animi alias soluta, pariatur rerum, odit perferendis id?</textarea>                            </div>
                         <div class="form-group has-success"> <label class=form-label>Input label</label> <textarea class=form-control cols=30 rows=4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum quibusdam incidunt eos autem ipsa quia quis a atque quas aliquid quae consequatur animi alias soluta, pariatur rerum, odit perferendis id?</textarea>                            <span
                                 id=helpBlock2 class=help-block><i class="fa fa-check-circle"></i> Success message</span> </div>
-                        <div class=form-group> <label for="" class=form-label>Select</label> <select name="" id="" class=form-control> <option value="">Option
+                        <div class=form-group> <label for="" class=form-label>Select</label> <select name=""  class=form-control> <option value="">Option
                                     #1</option>
                                 <option value="">Option #2</option>
                                 <option value="">Option #3</option> </select> </div>

@@ -1,0 +1,55 @@
+//Import Font Family 
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+//Body properties
+$font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+$font-header: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+$font-size: 15px;
+$font-color: #2c3e50;
+$background: #fff;
+
+//Colors manipulation value
+$percent-value: 10%;
+
+//Theme Colors
+$theme: #03B5A5;
+$theme02: #FF5722; 
+$theme03: #2196F3;
+$theme04:#E91E63;
+$theme05: #FFC107;
+$light-theme: #eee;
+$dark-theme: #111111;
+$gray-theme: #666;
+
+//Bootstrap Colors
+$primary-theme: #03B5A5;
+$success-theme: #8BC34A;
+$warning-theme: #FBC02D;
+$danger-theme: #f44336;
+$info-theme: #2196F3;
+
+//Colors manipulation
+$theme-lighten: lighten($theme, $percent-value);
+$theme-darken: darken($theme, $percent-value);
+$theme02-lighten: lighten($theme02,$percent-value);
+$theme02-darken: darken($theme02,$percent-value);
+$theme03-lighten: lighten($theme03,$percent-value);
+$theme03-darken: darken($theme03,$percent-value);
+$theme04-lighten: lighten($theme04,$percent-value);
+$theme04-darken: darken($theme04,$percent-value);
+$theme05-lighten: lighten($theme05,$percent-value);
+$theme05-darken: darken($theme05,$percent-value);
+$light-lighten: lighten($light-theme,$percent-value);
+$light-darken: darken($light-theme,$percent-value);
+$dark-lighten: lighten($dark-theme,$percent-value);
+$dark-darken: darken($dark-theme,$percent-value);
+$gray-lighten: lighten($gray-theme,$percent-value);
+$gray-darken: darken($gray-theme,$percent-value);
+$success-lighten: lighten($success-theme,$percent-value);
+$success-darken: darken($success-theme,$percent-value);
+$warning-lighten: lighten($warning-theme,$percent-value);
+$warning-darken: darken($warning-theme,$percent-value);
+$danger-lighten: lighten($danger-theme,$percent-value);
+$danger-darken: darken($danger-theme,$percent-value);
+$info-lighten: lighten($info-theme,$percent-value);
+$info-darken: darken($info-theme,$percent-value);

@@ -1,0 +1,22 @@
+.navbar-theme{
+    background: $theme;
+    .navbar-brand{
+        color: #eee;
+        &:hover,
+        &:focus{
+            color: #fff;
+        }
+    }
+    .navbar-nav{
+        > li {
+            > a{
+                color: #eee;
+                &:hover,
+                &:focus{
+                    color: #fff;
+                    background: $theme;
+                }
+            }
+        }
+    }
+}

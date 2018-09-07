@@ -3,6 +3,14 @@ import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
 
+window.jQuery = jQuery;
+window.$ = $;
+import bootstrap from 'bootstrap';
+
+//CSS
+import 'font-awesome/css/font-awesome.css';
+import './assets/scss/app.scss';
+
 Vue.config.productionTip = false
 
 new Vue({

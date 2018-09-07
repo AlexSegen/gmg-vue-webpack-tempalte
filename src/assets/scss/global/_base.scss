@@ -1,0 +1,48 @@
+/*--------------------------------------
+	[GENERAL]
+  --------------------------------------*/
+  html { 
+   font-size: $font-size;
+ }
+ body {
+  font-family: $font-family;
+  color: $font-color;
+  font-size: 1em;
+  background: $background;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:$font-header;
+}
+.clearfix {
+  clear: both;
+}
+.bold {
+  font-weight: bold;
+}
+.text-white {
+  color: #fff;
+}
+section {
+  position: relative;
+}
+
+.intro{
+  .brand{
+    max-width:200px;
+    height:auto;
+    margin-right: auto;
+    margin-left:auto;
+    .logo{
+      max-width:100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .small{
+    font-size:$font-size * .8;
+    opacity: .5;
+  }
+  .btn{
+    min-width:165px;
+  }
+}

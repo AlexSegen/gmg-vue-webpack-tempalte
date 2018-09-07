@@ -1,0 +1,465 @@
+/*--------------------------------------
+  [THEME BUTTONS]
+--------------------------------------*/
+$btn-default-radius:3px;
+.btn {
+  -webkit-border-radius:$btn-default-radius;
+  -moz-border-radius:$btn-default-radius;
+  -webkit-border-radius:$btn-default-radius;
+  -moz-border-radius:$btn-default-radius;
+  border-radius:$btn-default-radius;
+  padding-left: 20px;
+  padding-right: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &-primary {
+    background: $theme;
+    border: 1px solid $theme;
+    color: #eee !important;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #666 !important;
+      background: transparent;
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme-darken;
+      border: 1px solid $theme-darken;
+      color: #eee !important;
+    }
+
+  }
+
+  &-theme {
+    background: $theme;
+    border: 1px solid $theme;
+    color: #eee !important;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme;
+        border: 1px solid $theme;
+      }
+    }
+    
+    &.border-dark {
+      color: #737373 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme;
+        border: 1px solid $theme;
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme-darken;
+      border: 1px solid $theme-darken;
+      color: #eee !important;
+    }
+
+  }
+
+  &-theme02 {
+    background: $theme02;
+    border: 1px solid $theme02;
+    color: #eee !important;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme02;
+        border: 1px solid $theme02;
+      }
+    }
+    
+    &.border-dark {
+      color: #737373 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme02;
+        border: 1px solid $theme02;
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme02-darken;
+      border: 1px solid $theme02-darken;
+      color: #eee !important;
+    }
+
+
+  }
+
+  &-theme03 {
+    background: $theme03;
+    border: 1px solid $theme03;
+    color: #eee !important;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme03;
+        border: 1px solid $theme03;
+      }
+    }
+    
+    &.border-dark {
+      color: #737373 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme03;
+        border: 1px solid $theme03;
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme03-darken;
+      border: 1px solid $theme03-darken;
+      color: #eee !important;
+    }
+
+  }
+
+  &-theme04 {
+    background: $theme04;
+    border: 1px solid $theme04;
+    color: #eee !important;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme04;
+        border: 1px solid $theme04;
+      }
+    }
+    
+    &.border-dark {
+      color: #737373 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme04;
+        border: 1px solid $theme04;
+      }
+    }
+    
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme04-darken;
+      border: 1px solid $theme04-darken;
+      color: #eee !important;
+    }
+
+  }
+
+  &-theme05 {
+    background: $theme05;
+    border: 1px solid $theme05;
+    color: #eee !important;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme05;
+        border: 1px solid $theme05;
+      }
+    }
+    
+    &.border-dark {
+      color: #737373 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $theme05;
+        border: 1px solid $theme05;
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $theme05-darken;
+      border: 1px solid $theme05-darken;
+      color: #eee !important;
+    }
+
+  }
+
+  &-light {
+    background: $light-theme;
+    border: 1px solid #ccc;
+    color: #666;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $light-theme;
+        border: 1px solid $light-theme;
+      }
+    }
+    
+    &.border-dark {
+      color: #666 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $light-theme;
+        border: 1px solid $light-theme;
+        color: #666 !important;
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $light-darken;
+      border: 1px solid $light-darken;
+      color: #666 !important;
+    }
+  }
+
+  &-dark {
+    background: $dark-theme;
+    border: 1px solid $dark-theme;
+    color: #eee;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      border-color: #999999;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $dark-theme;
+        border: 1px solid $dark-theme;
+        color: #eee !important;
+      }
+    }
+    
+    &.border-dark {
+      color: #737373 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $dark-theme;
+        border: 1px solid $dark-theme;
+        color: #eee !important;
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background:$dark-darken;
+      border: 1px solid $dark-darken;
+      color: #666 !important;
+    }
+  }
+
+  &-gray {
+    background: $gray-theme;
+    border: 1px solid $gray-theme;
+    color: #eee !important;
+    &.square {
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      -webkit-border-radius:0px;
+      -moz-border-radius:0px;
+      border-radius:0px;
+    }
+    &.round {
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      -webkit-border-radius:25px;
+      -moz-border-radius:25px;
+      border-radius:25px;
+    }
+
+    &.border {
+      color: #eee !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $gray-theme;
+        border: 1px solid $gray-theme;
+      }
+    }
+    
+    &.border-dark {
+      color: #737373 !important;
+      background: transparent;
+      &:hover,
+      &:focus,
+      &:active {
+        background: $gray-theme;
+        border: 1px solid $gray-theme;
+        color: #eee !important;
+      }
+    }
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: $gray-darken;
+      border: 1px solid $gray-darken;
+      color: #eee !important;
+    }
+  }
+
+
+}

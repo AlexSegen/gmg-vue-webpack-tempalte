@@ -2,41 +2,77 @@
   [BG THEME]
 --------------------------------------*/
 .bg-theme {
-  background: $theme;
+  background: $theme!important;
+  background-color: $theme!important;
 }
 
 .bg-theme02 {
-  background: $theme02;
+  background: $theme02!important;
+  background-color: $theme02!important;
 }
 
 .bg-theme03 {
-  background: $theme03;
+  background: $theme03!important;
+  background-color: $theme03!important;
 }
 
 .bg-theme04 {
-  background: $theme04;
+  background: $theme04!important;
+  background-color: $theme04!important;
 }
 
 .bg-theme05 {
-  background: $theme05;
+  background: $theme05!important;
+  background-color: $theme05!important;
 }
 
 .bg-dark {
-  background: $dark-theme;
+  background: $dark-theme!important;
+  background-color: $dark-theme!important;
 }
 
 .bg-gray {
-  background: $gray-theme;
+  background: $gray-theme!important;
+  background-color: $gray-theme!important;
 }
 
-.btn-light {
-	background: $light-theme;
+.bg-light {
+  background: $light-theme!important;
+  background-color: $light-theme!important;
 }
 
 .bg-black {
-  background: #111111;
+  background: #111111!important;
+  background-color: #111111!important;
 }
 
 .bg-white {
-  background: #ffffff;
+  background: #ffffff!important;
+  background-color: #ffffff!important;
+}
+
+
+.bg-primary {
+  background: $primary-theme!important;
+  background-color: $primary-theme!important;
+}
+
+.bg-success {
+  background: $success-theme!important;
+  background-color: $success-theme!important;
+}
+
+.bg-warning {
+  background: $warning-theme!important;
+  background-color: $warning-theme!important;
+}
+
+.bg-info {
+  background: $info-theme!important;
+  background-color: $info-theme!important;
+}
+
+.bg-danger {
+  background: $danger-theme!important;
+  background-color: $danger-theme!important;
 }

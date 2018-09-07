@@ -1,31 +1,31 @@
 //Import Font Family 
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+//@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
 
 //Body properties
-$font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-$font-header: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-$font-size: 15px;
-$font-color: #2c3e50;
+$font-family: 'SF Pro Regular', sans-serif;
+$font-header: 'SF Pro Bold', sans-serif;
+$font-size: 14px;
+$font-color: #4F637E;
 $background: #fff;
 
 //Colors manipulation value
 $percent-value: 10%;
 
 //Theme Colors
-$theme: #03B5A5;
+$theme: #0068FF;
 $theme02: #FF5722; 
 $theme03: #2196F3;
 $theme04:#E91E63;
-$theme05: #FFC107;
-$light-theme: #eee;
-$dark-theme: #111111;
-$gray-theme: #666;
+$theme05: #FFA800;
+$light-theme: #A4AEBD;
+$dark-theme: #022047;
+$gray-theme: #8894A8;
 
 //Bootstrap Colors
-$primary-theme: #03B5A5;
-$success-theme: #8BC34A;
-$warning-theme: #FBC02D;
-$danger-theme: #f44336;
+$primary-theme: #0068FF;
+$success-theme: #00B377;
+$warning-theme: #FFA800;
+$danger-theme: #FF1D31;
 $info-theme: #2196F3;
 
 //Colors manipulation

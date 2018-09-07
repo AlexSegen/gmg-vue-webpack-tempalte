@@ -2,41 +2,62 @@
   [TEXT THEME]
 --------------------------------------*/
 .text-theme {
-  color: $theme;
+  color: $theme!important;
 }
 
 .text-theme02 {
-  color: $theme02;
+  color: $theme02!important;
 }
 
 .text-theme03 {
-  color: $theme03;
+  color: $theme03!important;
 }
 
 .text-theme04 {
-  color: $theme04;
+  color: $theme04!important;
 }
 
 .text-theme05 {
-  color: $theme05;
+  color: $theme05!important;
 }
 
 .text-dark {
-  color: $dark-theme;
+  color: $dark-theme!important;
 }
 
 .text-gray {
-  color: $gray-theme;
+  color: $gray-theme!important;
 }
 
 .text-light {
-	color: $light-theme;
+	color: $light-theme!important;
 }
 
 .text-black {
-  color: #111111;
+  color: #111111!important;
 }
 
 .text-white {
-  color: #eeeeee;
+  color: #eeeeee!important;
+}
+
+
+.text-primary {
+  color: $primary-theme!important;
+}
+
+.text-success {
+  color: $success-theme!important;
+}
+
+.text-warning {
+  color: $warning-theme!important;
+}
+
+.text-info {
+  color: $info-theme!important;
+}
+
+.text-danger {
+  color: $danger-theme!important;
 }

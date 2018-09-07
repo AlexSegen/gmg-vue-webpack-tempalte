@@ -1,0 +1,10 @@
+@keyframes fadeInUp{
+    0%{
+        transform: rotate(0) translateY(10PX);
+        opacity: .5;
+        }
+    100%{
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        }
+}

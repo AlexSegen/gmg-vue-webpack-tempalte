@@ -12,19 +12,21 @@
         Website:                http://www.geeksmotion.com
 
 -----------------------------------------------------------------------*/
-@import 'global/settings',
+@import 'config/variables',
         'addons/bootstrap-sass/assets/stylesheets/bootstrap',
+        'config/core',
+        '../fonts/SFPro-font',
         'modules/buttons',
         'modules/text-theme',
         'modules/bg-theme',
-        'modules/posts',
         'modules/spacing',
-        'global/typography',
+        'modules/animations',
         'pages/home',
-        'global/base',
         'layout/header',
         'layout/footer',
         'layout/sidebar',
+        'global/typography',
+        'global/base',
         'global/mixins',
         'global/responsive';
 

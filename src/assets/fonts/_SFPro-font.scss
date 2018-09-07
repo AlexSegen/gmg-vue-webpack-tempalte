@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'SF Pro Semibold';
+    src: url('../fonts/sfp-fonts/SFProDisplay-Semibold.eot');
+    src: url('../fonts/sfp-fonts/SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sfp-fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/sfp-fonts/SFProDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Regular';
+    src: url('../fonts/sfp-fonts/SFProDisplay-Regular.eot');
+    src: url('../fonts/sfp-fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sfp-fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/sfp-fonts/SFProDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Thin';
+    src: url('../fonts/sfp-fonts/SFProDisplay-Thin.eot');
+    src: url('../fonts/sfp-fonts/SFProDisplay-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sfp-fonts/SFProDisplay-Thin.woff2') format('woff2'),
+        url('../fonts/sfp-fonts/SFProDisplay-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Medium';
+    src: url('../fonts/sfp-fonts/SFProDisplay-Medium.eot');
+    src: url('../fonts/sfp-fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sfp-fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/sfp-fonts/SFProDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Bold';
+    src: url('../fonts/sfp-fonts/SFProDisplay-Bold.eot');
+    src: url('../fonts/sfp-fonts/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sfp-fonts/SFProDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/sfp-fonts/SFProDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
